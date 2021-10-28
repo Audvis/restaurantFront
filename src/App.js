@@ -10,7 +10,7 @@ function App() {
     <div className="md:flex min-h-screen">
       <SideBar />
 
-      <div className="md:w-3/5 xl:w-4/5">
+      <div className="md:w-3/5 xl:w-4/5 p-6">
         <Route exact path='/'>
           < Ordenes />
         </Route>
